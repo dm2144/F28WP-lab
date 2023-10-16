@@ -9,7 +9,7 @@
   },
  {
     "name": "Milan",
-    "country" : "Italy",
+    "country": "Italy",
     "places": {
       "indoor": ["Duomo di Milano", "Galleria Vittorio"],
       "Outdoor": ["Piazza del Duomo", "Parco Sempione"]
@@ -17,7 +17,7 @@
   },
   {
     "name": "Moscow",
-    "country" : "Russia",
+    "country": "Russia",
     "places": {
       "indoor": ["Bolshoi Theatre", "GUM"],
       "outdoor": ["Red Square", "Gorky Central Park"]
