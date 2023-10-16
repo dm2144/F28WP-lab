@@ -1,0 +1,26 @@
+[
+  {
+    "city": "Delhi",
+    "country" : "India",
+    "places": {
+      "indoor": ["Pacific Mall Tagore Garden", "Select City Walk Mall"],
+      "Outdoor": ["Mughal Garden", "Nehru Park"]
+    }
+  },
+ {
+    "city": "Paris",
+    "country" : "France",
+    "places": {
+      "indoor": ["Louvre Museum", "Cathédrale Notre-Dame de Paris"],
+      "Outdoor": ["Luxembourg Gardens", "Champs-Élysées."]
+    }
+  },
+  {
+    "city": "Istanbul",
+    "country" : "Turkey",
+    "places": {
+      "indoor": ["Hagia Sophia Mosque", "Basilica Cistern"],
+      "outdoor": ["Gülhane Park", "Taksim Square"]
+    }
+  }
+]
