@@ -1,14 +1,14 @@
 [
   {
-    "city": "Dubai",
-    "country" : "United Arab Emirates",
+    "name": "Dubai",
+    "country": "United Arab Emirates",
     "places": {
       "indoor": ["Dubai Mall", "IMG world"],
       "Outdoor": ["JBR Beach", "Zabeel Park"]
     }
   },
  {
-    "city": "Milan",
+    "name": "Milan",
     "country" : "Italy",
     "places": {
       "indoor": ["Duomo di Milano", "Galleria Vittorio"],
@@ -16,7 +16,7 @@
     }
   },
   {
-    "city": "Moscow",
+    "name": "Moscow",
     "country" : "Russia",
     "places": {
       "indoor": ["Bolshoi Theatre", "GUM"],
