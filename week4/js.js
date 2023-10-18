@@ -11,7 +11,8 @@ btn.addEventListener("click", function(){
 });
 
 function renderHTML(data) {
-cityContainer.insertAdjacentHTML('beforeend', 'testing 123' );
+    var htmlString = "This is another test in a variable";
+cityContainer.insertAdjacentHTML('beforeend', htmlString );
 
 
 }
