@@ -19,7 +19,7 @@ function renderHTML(data) {
             htmlString  += data[i].places.outdoor[ii];
         }
     }
-    htmlString += '.</p>'
+    htmlString += '.</p>';
     }
 
 cityContainer.insertAdjacentHTML('beforeend', htmlString );
