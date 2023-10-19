@@ -15,15 +15,15 @@ function renderHTML(data) {
 
     for (i = 0; i<data.length; i++){
         htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". where you can visit indoors like: " ;
-        for (ii =0; ii < data[i].places.outdoor; ii++){
+        for (j =0; j < data[i].places.outdoor; j++){
 
-            for (ii = 0; ii < data[i].places.indoor.length; ii++) {
-                if (ii == 0) {
-                  htmlString += data[i].places.indoor[ii];
+            for (j = 0; j < data[i].places.indoor.length; j++) {
+                if (j == 0) {
+                  htmlString += data[i].places.indoor[j];
                 } 
                 else {
 
-                    htmlString += " and " + data[i].places.indoor[ii];
+                    htmlString += " and " + data[i].places.indoor[j];
                 }
             }
         }
