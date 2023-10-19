@@ -49,7 +49,7 @@ function renderHTML(data) {
       }
     }
 
-    htmlString += '.</p></hr>';
+    htmlString += '.</hr></p>';
   }
 
   cityContainer.insertAdjacentHTML('beforeend', htmlString);
