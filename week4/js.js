@@ -20,7 +20,7 @@ function renderHTML(data) {
         }
     }
     htmlString += '.</p>';
-    }
+    
 
 cityContainer.insertAdjacentHTML('beforeend', htmlString );
-}
+};
