@@ -14,7 +14,8 @@ function renderHTML(data) {
     var htmlString = "";
 
     for (i = 0; i<data.length; i++){
-        htmlString += "<p>" + data[i].name + "is a city in " + data[i].country + ".</p>" ;
+        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ".</p>" ;
     }
+
 cityContainer.insertAdjacentHTML('beforeend', htmlString );
 }
