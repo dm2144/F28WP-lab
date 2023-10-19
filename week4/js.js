@@ -15,7 +15,7 @@ function renderHTML(data) {
 
     for (i = 0; i<data.length; i++){
         htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". where you can visit indoors like: </br>" 
-        + data.places.indoor + " , and outdoour like: <br>"; 
+        + data.places.indoor + " , and outdoour like: <br>" + data[i].places.Outdoor 
       htmlString += '.</p>';
     
     }
