@@ -4,7 +4,7 @@
     "country": "India",
     "places": {
       "indoor": ["Pacific Mall Tagore Garden", "Select City Walk Mall"],
-      "Outdoor": ["Mughal Garden", "Nehru Park"]
+      "outdoor": ["Mughal Garden", "Nehru Park"]
     }
   },
  {
@@ -12,7 +12,7 @@
     "country": "France",
     "places": {
       "indoor": ["Louvre Museum", "Cathédrale Notre-Dame de Paris"],
-      "Outdoor": ["Luxembourg Gardens", "Champs-Élysées."]
+      "outdoor": ["Luxembourg Gardens", "Champs-Élysées."]
     }
   },
   {
