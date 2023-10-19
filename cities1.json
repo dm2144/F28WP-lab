@@ -4,7 +4,7 @@
     "country": "United Arab Emirates",
     "places": {
       "indoor": ["Dubai Mall", "IMG world"],
-      "Outdoor": ["JBR Beach", "Zabeel Park"]
+      "outdoor": ["JBR Beach", "Zabeel Park"]
     }
   },
  {
@@ -12,7 +12,7 @@
     "country": "Italy",
     "places": {
       "indoor": ["Duomo di Milano", "Galleria Vittorio"],
-      "Outdoor": ["Piazza del Duomo", "Parco Sempione"]
+      "outdoor": ["Piazza del Duomo", "Parco Sempione"]
     }
   },
   {
