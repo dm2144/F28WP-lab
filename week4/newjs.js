@@ -29,7 +29,7 @@ function renderHTML(data) {
   var htmlString = "";
 
   for (i = 0; i < data.length; i++) {
-    htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". <br> You can visit indoor places like ";
+    htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". <br> You can visit indoor places like: ";
 
     for (ii = 0; ii < data[i].places.indoor.length; ii++) {
       if (ii == 0) {
@@ -39,7 +39,7 @@ function renderHTML(data) {
       }
     }
 
-    htmlString += '. </br> And enjoy outdoor places like ';
+    htmlString += '. </br> And enjoy outdoor places like: ';
 
     for (ii = 0; ii < data[i].places.outdoor.length; ii++) { 
       if (ii == 0) {
