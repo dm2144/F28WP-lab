@@ -14,7 +14,12 @@ function renderHTML(data) {
     var htmlString = "";
 
     for (i = 0; i<data.length; i++){
-        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ".</p>" ;
+        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". Were you can visit: " ;
+        for (ii =0; ii < data[i].places.outdoor; ii++){
+            htmlString  += data[i].places.outdoor[ii];
+        }
+    }
+    htmlString += '.</p>'
     }
 
 cityContainer.insertAdjacentHTML('beforeend', htmlString );
