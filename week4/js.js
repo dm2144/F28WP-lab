@@ -14,7 +14,7 @@ function renderHTML(data) {
     var htmlString = "";
 
     for (i = 0; i<data.length; i++){
-        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". where you can visit indoors like: " ;
+        htmlString += "<p>" + data[i].name + " is a city in " + data[i].places.indoor + ". where you can visit indoors like: " ;
         for (j =0; j < data[i].places.outdoor; j++){
 
             for (j = 0; j < data[i].places.indoor.length; j++) {
