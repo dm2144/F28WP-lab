@@ -14,19 +14,22 @@ function renderHTML(data) {
     var htmlString = "";
 
     for (i = 0; i<data.length; i++){
-        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". Were you can visit: " ;
+        htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". where you can visit indoors like: " ;
         for (ii =0; ii < data[i].places.outdoor; ii++){
 
-            if (ii == 0) {
-        htmlString += data[i].places.outdoor[ii];
-      } else {
-        htmlString += " and " + data[i].places.outdoor[ii];
-      }
-      
-        }
-    }
-    htmlString += '.</p>';
-    
+            for (ii = 0; ii < data[i].places.indoor.length; ii++) {
+                if (ii == 0) {
+                  htmlString += data[i].places.indoor[ii];
+                } 
+                else {
 
+                    htmlString += " and " + data[i].places.indoor[ii];
+                }
+            }
+        }
+      htmlString += '.</p>';
+    
+    }
 cityContainer.insertAdjacentHTML('beforeend', htmlString );
-};
+    
+}
