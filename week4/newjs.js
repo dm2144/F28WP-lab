@@ -39,7 +39,7 @@ function renderHTML(data) {
       }
     }
 
-    htmlString += '. </br> And also you can enjoy outdoor places like ';
+    htmlString += '. </br> And enjoy outdoor places like ';
 
     for (ii = 0; ii < data[i].places.outdoor.length; ii++) { 
       if (ii == 0) {
