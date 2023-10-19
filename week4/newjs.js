@@ -20,7 +20,7 @@ btn.addEventListener("click", function() {
 
   ourRequest.send();
   pageCounter++;
-  if (pageCounter > 3) { // assuming you have 3 pages of cities
+  if (pageCounter > 2) { // assuming you have 2 pages of cities
     btn.classList.add("hide-me");
   }
 });
@@ -29,7 +29,7 @@ function renderHTML(data) {
   var htmlString = "";
 
   for (i = 0; i < data.length; i++) {
-    htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". You can visit indoor places like ";
+    htmlString += "<p>" + data[i].name + " is a city in " + data[i].country + ". <br> You can visit indoor places like ";
 
     for (ii = 0; ii < data[i].places.indoor.length; ii++) {
       if (ii == 0) {
@@ -39,7 +39,7 @@ function renderHTML(data) {
       }
     }
 
-    htmlString += '. Outdoors, you can enjoy places like ';
+    htmlString += '. </br> And also you can enjoy outdoor places like ';
 
     for (ii = 0; ii < data[i].places.outdoor.length; ii++) { 
       if (ii == 0) {
