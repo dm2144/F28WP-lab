@@ -48,3 +48,7 @@ header {
     padding: 35px;
     margin: 30px;
   }
+  .hide-me {
+    display: none; /* This will hide the element */
+  }
+  
