@@ -49,6 +49,8 @@ header {
     margin: 30px;
   }
   .hide-me {
-    display: none; /* This will hide the element */
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.75);
   }
   
