@@ -95,3 +95,4 @@ function renderHTML(data) {
   // Insert the HTML into our cityContainer element, just before the end of its content.
   cityContainer.insertAdjacentHTML('beforeend', htmlString);
 }
+
