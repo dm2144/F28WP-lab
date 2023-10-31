@@ -1,6 +1,6 @@
 
 
-var cityContainer = getElementById("city-info");
+var cityContainer = document.getElementById("city-info");
 var btn = document.getElementById("btn");
 btn.addEventListener("click", function(){
 
