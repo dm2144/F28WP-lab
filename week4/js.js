@@ -7,6 +7,8 @@ btn.addEventListener("click", function(){
   ourRequest.onload = function() {
     var ourData = JSON.parse(ourRequest.responseText);
    renderHTML(ourData);
+   btn.classList.add("hide-me");
+
   };
   ourRequest.send();
   
